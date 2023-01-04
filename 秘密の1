@@ -214,7 +214,7 @@ CheckTiles.TextSize = 25.000
 
 CheckTiles.MouseButton1Down:connect(function()
 
-	local player = game.Players.LocalPlayerwait(0) 
+	local player = game.Players.LocalPlayerwait(0.1) 
 
 	player.Character.HumanoidRootPart.CFrame = CFrame.new(187.579651, 1991.72668, -142.532455, 0, 1, 0, 1, 0, 0, 0, 0, -1)
 
@@ -534,7 +534,7 @@ CheckTiles.MouseButton1Down:connect(function()
 
 	player.Character.HumanoidRootPart.CFrame = CFrame.new(-862.420349, 1991.72668, -142.532471, 0, 1, 0, 1, 0, 0, 0, 0, -1)
 
-    wait(0)
+    wait(0.1)
 
 player.Character.HumanoidRootPart.CFrame = CFrame.new(278.827301, 1992.21191, -149.314667, 0, 0, 1, 0, 1, -0, -1, 0, 0)
 
